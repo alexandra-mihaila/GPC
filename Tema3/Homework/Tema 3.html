@@ -1,0 +1,152 @@
+
+<!-- saved from url=(0045)https://profs.info.uaic.ro/~ghirvu/gpc/tema3/ -->
+<html class="gr__profs_info_uaic_ro"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Generator" content="Microsoft Word 12 (filtered)">
+<title>Tema 3</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Document Map Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.DocumentMapChar
+	{mso-style-name:"Document Map Char";
+	mso-style-link:"Document Map";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang="EN-US" link="blue" vlink="blue" data-gr-c-s-loaded="true">
+
+<div class="Section1">
+
+<p><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:red">Tema
+3.</span></b></p>
+
+<p><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:red">Desenarea
+primitivelor grafice 2D pe ecrane rastru.</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:18.0pt;text-indent:-18.0pt"><a name="_Ref88657016"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;
+color:#660066">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Implementati o clasa
+GrilaCarteziana prin intermediul careia sa puteti<br>
+desena o grila carteziana patratica 2D cu urmatoarele caracteristici:</span></a></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:54.0pt;text-indent:-18.0pt"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#CC00CC">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Numarul de linii/coloane
+sunt parametri ai grilei,</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:54.0pt;text-indent:-18.0pt"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#CC00CC">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">In varfurile grilei
+(intersectiile dintre linii si coloane) sa fie desenati<br>
+pixeli avand o forma circulara (pot avea si alte forme, patratice de <br>
+exemplu, dar <span style="color:red">formele circulare vor primi punctaj maxim</span>),
+</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:54.0pt;text-indent:-18.0pt"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#CC00CC">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Pixelii sa fie disjuncti,</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:54.0pt;text-indent:-18.0pt"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#CC00CC">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Un pixel (i,j) sa fie aprins
+prin apelul unei metode writePixel avand <br>
+cel putin 2 argumente de tip intreg: linia i si coloana j<span style="display:none"> ava� </span>.</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:18.0pt;text-indent:-18.0pt"><b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;color:#660066">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></b><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">Implementati unul dintre algoritmii
+prezentati la curs pentru <a name="_Ref88656916">trasarea <br>
+unui segment de dreapta ale carui extremitati au coordonate <br>
+intregi (vezi </a></span><a href="https://profs.info.uaic.ro/~ghirvu/gpc/tema3/#t3im1"><span lang="RO" style="font-family:
+&quot;Verdana&quot;,&quot;sans-serif&quot;">imaginea</span></a><span lang="RO" style="font-family:
+&quot;Verdana&quot;,&quot;sans-serif&quot;">).</span><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">
+<br>
+<span style="color:red">Vor primi punctaj maxim acele rezolvari care
+implementeaza <br>
+algoritmul </span></span><span lang="RO" style="font-family:&quot;Courier New&quot;;
+color:red">AfisareSegmentDreapta3</span><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;;
+color:red"> (modificandu-l corespunzator, <br>
+astfel incat calculul coordonatele pixelilor sa nu utilizeze <br>
+coordonatele pixelilor din algoritmul prezentat la curs).</span></p>
+
+<p class="MsoNormal"><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal"><a name="t3im1"></a><span style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;"><img border="0" width="300" height="303" id="Picture 1" src="./Tema 3_files/image001.gif" alt="t3im1"></span></p>
+
+<p class="MsoNormal"><span lang="RO" style="font-family:&quot;Verdana&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+
+</div>
+
+
+
+
+</body></html>
